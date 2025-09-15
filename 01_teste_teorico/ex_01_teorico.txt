@@ -1,0 +1,42 @@
+Exercício 1
+
+a) O que é um Data Warehouse (DW)?
+
+Um Data Warehouse é um repositório centralizado que armazena dados estruturados e semiestruturados de diversas fontes, como sistemas transacionais e bancos de dados relacionais. 
+Tem como objetivo fornecer suporte a análises e relatórios, facilitando a tomada de decisões estratégicas nas empresas.
+Exemplos: Redshift (AWS), Google BigQuery, Snowflake.
+
+b) Quais características possuem as tabelas do tipo Fato e Dimensão ?
+
+As tabelas do tipo Fato armazenam dados quantitativos, ou seja, dados que podem ser utilizados para calcular métricas como lucro e quantidade de vendas.
+Essas tabelas possuem chaves estrangeiras (FK) que se relacionam com as tabelas do tipo Dimensão.
+
+As tabelas do tipo Dimensão, por outro lado, armazenam dados qualitativos, ou seja, dados que podem ser utilizados para contextualizar as métricas que podem ser
+extraídas das tabeças Fatp. Podem ter dados como: Nomes, Categorias, Marcas, etc.
+
+c) O que é ETL?
+
+ETL significa Extrair (Extract), Transformar (Transform) e Carregar (Load).
+É um processo utilizado para integrar dados de diversas fontes em um repositório central, como um Data Warehouse. Envolve:
+- Extrair: Coletar dados de diferentes fontes (Bancos, APIs, JSON, CSV, Web)
+- Transformar: Limpar e organizar os dados conforme regras de negócios (remoção de registros nulos, duplicatas, criação de novas colunas, etc.)
+- Carregar: Armazenar os dados transformados no repositório central (normalmente um Data Warehouse)
+
+d) Quais são as principais atribuições de um Engenheiro de Dados ?
+
+O Engenheiro de Dados é responsável por projetar, construir e manter sistemas que coletam, armazenam e processam grandes volumes de dados.
+Suas principais atribuições incluem:
+- Desenvolver pipelines de dados eficientes
+- Integrar dados de diferentes fontes
+- Garantir a qualidade e segurança dos dados
+- Colaborar a equipe de analistas e cientistas para fornecer dados prontos para análise
+
+e) O que é Trade Marketing?
+
+Trade Marketing é uma estratégia B2B focada em atender às demandas específicas do shopper no ponto de venda (PDV).
+Envolve ações que visam aumentar a visibilidade e a disponibilidade dos produtos, melhorar a experiência de compra e impulsionar as vendas.
+É uma colaboração entre indústria e varejo para otimizar o desempenho no PDV.
+
+Podemos citar como exemplo o caso das Fraldas e das Cervejas, em que foi observado que homens que compravam fraldas, acabavam comprando cerveja na mesma ida ao mercado.
+Com esse insight, as empresas reposicionaram seus produtos, fizeram promoções combinadas e organizaram melhor o layout das lojas, com o objetivo de aumentar as vendas
+usando dados para influenciar o comportamento do shopper.
